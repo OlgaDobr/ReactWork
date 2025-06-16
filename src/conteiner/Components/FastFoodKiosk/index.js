@@ -15,6 +15,10 @@ function FastFoodKiosk() {
     setOrder([...order, item]);
   };
 
+  const toggleClear = ()=>{
+    setOrder([])
+  }
+
   return (
     <div style={{ display: 'flex', height: '100vh', fontFamily: 'Arial, sans-serif' }}>
       {/* Панель слева - Order Details */}
@@ -47,12 +51,10 @@ function FastFoodKiosk() {
             }}
           >
             {item.name}
-            <button>cleane</button>
           </button>
-          
-          
-          
         ))}
+            <button onClick={toggleClear}>cleane</button>
+
       </div>
     </div>
   );
