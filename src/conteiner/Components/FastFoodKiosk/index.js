@@ -47,7 +47,11 @@ function FastFoodKiosk() {
             }}
           >
             {item.name}
+            <button>cleane</button>
           </button>
+          
+          
+          
         ))}
       </div>
     </div>
