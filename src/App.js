@@ -3,10 +3,11 @@ import './App.css';
 import FastFoodKiosk from './conteiner/Components/FastFoodKiosk';
 import Menu from './conteiner/Components/Menu';
 import Header from './conteiner/Components/Header';
+import React from 'react';
 
 
 
-function App() {
+   function App() {
   return (
     <div className="App">
        <FastFoodKiosk/> 
@@ -14,8 +15,8 @@ function App() {
       <Header/>
 
     </div>
-   
-  );
-}
+);
+};
+
 
 export default App;
